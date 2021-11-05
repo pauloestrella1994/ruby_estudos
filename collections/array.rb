@@ -42,6 +42,14 @@ print "#{estado.empty?}\n"
 #ask if it has some value
 print "#{estado.include?("São Paulo")}\n"
 
+#delete elements by position
+estado.delete_at(2)
+print "#{estado}\n"
 
+#delete last value
+estado.pop
+print "#{estado}\n"
 
-
+#delete first value
+estado.shift
+print "#{estado}\n"
